@@ -3,5 +3,5 @@
 ## Aula sobre web design responsivo
 
 Tecnologias usadas:
-*Html
-*Css
+* html
+* css
