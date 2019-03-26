@@ -1,0 +1,146 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+    font-family: 'Concert One', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, .sobreMim{
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1485939420171-378de92ecd4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80")
+}
+ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    height: 10%;
+    margin: 0;
+    top: 0%;
+} 
+
+ul > li {
+    list-style: none;
+}
+
+body{
+    color: whitesmoke;
+    margin: 0;
+}
+
+.banner{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 200px;
+    font-size: 1.5rem;
+}
+.banner_title-color{
+    color: darkred;
+}
+.seta{
+    padding: 50px;
+}
+.seta_img{
+    width: 4%;
+}
+.projetos_title,  .titles{
+    color: #e9c581;
+    text-align: center;
+    padding: 50px;
+}
+.projetos_site{
+    display: flex;
+}
+.projetos{
+    height: 50%;
+}
+.site_img{
+    width:90%;
+}
+.site_title{
+    color: #B3B2B2;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 60px;
+    text-align: center;
+}
+.btn_link{
+    color: darkred;
+    text-decoration:none;
+    border: 2px solid #0f686b;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 0.87rem;
+    margin-bottom: 21px;
+}
+.sobreMim{
+    background-color:#0f686b;
+    text-align: center;
+}
+.sobreMim_img{
+    background-color: #ddd;
+    border: 2px solid black;
+    border-radius: 100%;
+    height: 157px;
+    object-fit: cover;
+    width: 157px;
+}
+
+.contato{
+    height: 50vh;
+}
+.contato_icons{
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+.contato_img{
+    width: 10%;    
+}
+.contato_img-icon{
+    width: 100%;
+   
+}
+
+
+.btn_link {background-color: antiquewhite;}
+
+h3 {font-family: 'Overpass', sans-serif;}
+
+
+footer{
+    background-color: #6ea9a6;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    padding: 10px;
+
+}
+
+@media (max-width: 767px) {
+    h1 { font-size: 30px; }
+    .projetos_site	{display:block;}
+
+    .contato_img {width: 20%;}
+    h3 { font-size: 18px;}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .contato {height: 23vh;}
+}
