@@ -1,6 +1,6 @@
-### Exercício da Reprograma (Curso Online)
+## Exercício da Reprograma (Curso Online)
 
-## Aula sobre web design responsivo
+### Aula sobre web design responsivo
 
 Tecnologias usadas:
 * Html
