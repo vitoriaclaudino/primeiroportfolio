@@ -3,5 +3,9 @@
 ## Aula sobre web design responsivo
 
 Tecnologias usadas:
-* html
-* css
+* Html
+* Css
+
+
+
+*Code by Vitória Claudino*
